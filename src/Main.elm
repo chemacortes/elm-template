@@ -24,12 +24,12 @@ init _ =
 
 view : Model -> Html Msg
 view _ =
-    Debug.todo
+    Debug.todo "view no implementado"
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update _ _ =
-    Debug.todo
+    Debug.todo "update no implementado"
 
 
 subscriptions : Model -> Sub Msg
