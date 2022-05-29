@@ -19,7 +19,6 @@ elm-tooling install
 npx elm init
 npm install -D elm-review
 npx elm-review init --template jfmengels/elm-review-config/application
-``
-
+```
 
 [1]: https://elm-tooling.github.io/elm-tooling-cli/ "Elm-tooling"
