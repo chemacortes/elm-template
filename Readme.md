@@ -1,13 +1,15 @@
 # Template para proyectos ELM
 
-Requiere instalar [elm-tooling][1].
+Requiere instalar [elm-tooling][1] (También se puede usar con `npx` sin instalar)
 
 Para instalar módulos y dependencias:
 
 ```bash
-elm-tooling install
 npm install
 ```
+
+`npm install` lanza indirectamente lanza el script `elm-tooling install`.
+
 
 ## Creación del Template
 

@@ -4,44 +4,21 @@ import Browser
 import Html exposing (Html)
 
 
-type Msg
-    = NoOp
+init =
+    ""
 
 
-type alias Model =
-    {}
+view model =
+    Html.text "Hello, World!"
 
 
-initModel : Model
-initModel =
-    {}
+update msg model =
+    model
 
 
-init : () -> ( Model, Cmd Msg )
-init _ =
-    ( initModel, Cmd.none )
-
-
-view : Model -> Html Msg
-view _ =
-    Debug.todo "view no implementado"
-
-
-update : Msg -> Model -> ( Model, Cmd Msg )
-update _ _ =
-    Debug.todo "update no implementado"
-
-
-subscriptions : Model -> Sub Msg
-subscriptions _ =
-    Sub.none
-
-
-main : Program () Model Msg
 main =
-    Browser.element
+    Browser.sandbox
         { init = init
         , view = view
         , update = update
-        , subscriptions = subscriptions
         }
